@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+
+
+}
+
+.main{
+    border: 5px solid #2D2640;
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    /*Eixo X */
+    justify-content: center;
+    /*Eixo Y */
+    align-items: center;
+
+
+}
+
+.left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left > h1{
+    color: #77FFC0;
+
+}
+
+img{
+    max-height: 60%;
+}
+
+.right{
+
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2F2841;
+    border-radius: 20px;
+    box-shadow: #2D2640 0px 10px 40px;
+    
+
+
+}
+
+.card > h1{
+    color: #77FFC0;
+    font-weight: 800;
+
+
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #382F4F;
+    color: white;
+    font-size: 12px;
+    box-shadow: 0px 10px 40px #2E2640;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.textfield > input::placeholder{
+    color: #D4D4D4;
+}
+
+input:focus{
+    border-color: #77FFC0;
+}
+
+.textfield > label{
+    color: #D4D4D4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #382F4F;
+    background: #77FFC0;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #5EC998;
+}
+
+.btn-login:hover{
+    transition: background 1s;
+    background: #50AB81;
+}
+
+h1, label{
+    color: white;
+
+}
+
+
+
